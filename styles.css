@@ -1,0 +1,92 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body, html { 
+    font-size: 16px;
+}
+
+img {
+    width: 100%;
+}
+
+h1 { 
+    font-size: 3em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+h3 {
+    text-align: left;
+}
+
+p { 
+    line-height: 1.5em;
+    justify-content: align;
+}
+
+figcaption {
+    font-size: 0.75em;
+    color: gray;
+}
+
+hr {
+    height: 4px;
+    background: gray;
+}
+
+.container,
+.icon-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.main-img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.icon-container img { 
+    display: block;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.graphic-text {
+    margin: auto;
+    padding: 10px;
+}
+
+@media(min-width: 681px) {
+    p.intro {
+        max-width: 65%;
+    }
+
+    .icon-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .graphic {
+        flex-basis: 30%;
+        justify-content: space-between
+    }
+
+    .graphic-text {
+        padding: 2px;
+    }
+}
+
+@media(min-width: 900px) {
+
+    .container {
+            max-width: 600px;
+    }
+
+    figure {
+        max-width: 700px;
+    }
+}
+
