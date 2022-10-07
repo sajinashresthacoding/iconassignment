@@ -18,8 +18,9 @@ h1 {
 }
 
 h3 {
-    text-align: left;
+    text-align: center;
 }
+
 
 p { 
     line-height: 1.5em;
@@ -34,6 +35,10 @@ figcaption {
 hr {
     height: 4px;
     background: gray;
+}
+
+#iconimg {
+    text-align: center;
 }
 
 .container,
